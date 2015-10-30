@@ -6,3 +6,5 @@ __test_library__
 *.swp
 *.iml
 .idea
+
+*.md

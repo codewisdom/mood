@@ -44,9 +44,9 @@ void main(string[] args)
 
     import vibe.stream.ssl;
     settings.bindAddresses = [ "::1", "127.0.0.1" ];
-    settings.sslContext = createSSLContext(SSLContextKind.server);
-    settings.sslContext.useCertificateChainFile("certs/blog.crt");
-    settings.sslContext.usePrivateKeyFile("certs/blog.key");
+    //settings.sslContext = createSSLContext(SSLContextKind.server);
+    //settings.sslContext.useCertificateChainFile("certs/blog.crt");
+    //settings.sslContext.usePrivateKeyFile("certs/blog.key");
 
     auto router = new URLRouter;
 

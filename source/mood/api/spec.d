@@ -97,6 +97,10 @@ struct BlogPost
         return (cast(Date) this.created_at).toSimpleString();
     }
 
+    string pretty_date_time() const @property
+    {
+        return this.created_at.toSimpleString();
+    }
     /**
         Keeps only month/year part of creation timestamp and formats it in
         a simple human-readable form (with a month as a full word)

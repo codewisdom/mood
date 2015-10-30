@@ -13,4 +13,4 @@ block inner
           .content
             div !{ post.html_intro }
           footer
-            .posted !{ post.pretty_date }
+            .posted !{ post.pretty_date_time }
